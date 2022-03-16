@@ -1,23 +1,16 @@
-
-pip install gTTS
-pip install playsound
 from playsound import playsound
 from gtts import gTTS 
 import os 
-
-
+import time
 def voice(myText):
 
     # Language we want to use 
     language = 'en'
 
     output = gTTS(text=myText, lang=language, slow=False)
-
-    output.save("output.mp3")
-    playsound("D:/ion-thon/output.mp3")
-
+    t=time.time()
+    nm="output"+str(t)+".mp3"
+    output.save(nm)
+    playsound(nm)
 
 voice("Hello Guys for converting text to speech!")
-
-
-
