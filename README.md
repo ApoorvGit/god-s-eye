@@ -1,8 +1,8 @@
-## ION<athon> 1.0 (Prototype Phase)
+## IONathon 1.0 (Prototype Phase)
 
 # Theme: Social service / (focused on underprivileged only)
 
-#Project Name:
+# Project Name:
 God's Eye
 
 # Objective: 
