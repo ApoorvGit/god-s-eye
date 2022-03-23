@@ -1,7 +1,7 @@
 from PIL import Image
 import pytesseract
 import numpy as np
-from voice import *
+from Module-1/voice import *
 
 def textRecognition(filename):
   img1 = np.array(Image.open(filename))
