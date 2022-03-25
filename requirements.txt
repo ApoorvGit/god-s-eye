@@ -3,3 +3,6 @@ tesseract-ocr
 playsound
 pygobject
 gtts
+face_recognition
+cv2
+glob
