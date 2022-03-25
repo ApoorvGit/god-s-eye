@@ -1,5 +1,6 @@
 from PIL import Image
 import pytesseract
+import cv2
 import numpy as np
 import sys
 sys.path.append('../Module-1')
@@ -20,6 +21,7 @@ def textRecognition(filename):
   return temp
   
 def ocr(img):
-  sentences=textRecognition(img)
+  cv2.imwrite("frame.jpg", img)
+  sentences=textRecognition("frame.jpg")
   for s in sentences:
     voice(s)
