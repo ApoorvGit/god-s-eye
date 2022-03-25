@@ -13,4 +13,3 @@ def voice(myText):
     output.save(nm)
     playsound(nm)
 
-voice("Hello Guys for converting text to speech!")
