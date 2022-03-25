@@ -1,6 +1,8 @@
 from PIL import Image
 import pytesseract
 import numpy as np
+import sys
+sys.path.append('../Module-1')
 from voice import *
 
 def textRecognition(filename):
