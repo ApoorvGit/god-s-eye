@@ -5,27 +5,27 @@ from voice import *
 sys.path.append('Module-2')
 from OCR import *
 
-# sys.path.append('../Module-3')
-# from Image_Captioning import *
+sys.path.append('Module-3')
+from Image_Captioning import *
 
 sys.path.append('Module-4')
 from reco import *
 
 sys.path.append('../')
-mode=2
+mode=1
 count = 0
 def cam():
     global mode
     global count
     # Load Camera
-    cap = cv2.VideoCapture(3)
+    cap = cv2.VideoCapture(0)
     while True:
         ret, frame = cap.read()
         nm="frame"+str(count)+".jpg"
         cv2.imwrite(nm, frame)
         count+=1
         if(mode==1):
-            print("output_caption_stream(frame)")
+            voice(caption_this_image(nm))
         elif(mode==2):
             recognise(nm)
         elif(mode==3):
