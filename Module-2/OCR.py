@@ -5,6 +5,7 @@ import numpy as np
 import sys
 sys.path.append('../Module-1')
 from voice import *
+sys.path.append('../')
 
 def textRecognition(filename):
   img1 = np.array(Image.open(filename))
@@ -21,7 +22,10 @@ def textRecognition(filename):
   return temp
   
 def ocr(img):
-  cv2.imwrite("frame.jpg", img)
-  sentences=textRecognition("frame.jpg")
+  sentences=textRecognition(img)
   for s in sentences:
+    count=sum(len(x) for x in s.split())
+    print("length:")
+    print(count)
+    if count<=2: continue
     voice(s)
