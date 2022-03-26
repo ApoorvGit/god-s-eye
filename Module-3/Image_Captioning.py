@@ -17,17 +17,22 @@ from keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 from keras.layers import Input, Dense, Dropout, Embedding, LSTM
 from keras.layers.merge import add
+
+import collections
+import random
+from PIL import Image
 #for voice
 from playsound import playsound
 from gtts import gTTS 
 import os 
 import time
+import cv2
 
 
 # In[2]:
 
 
-model = load_model("Model Weights/model_8.h5")
+model = load_model("Module-3/Model_Weights/model_8.h5")
 model.make_predict_function()
 
 
@@ -71,10 +76,10 @@ def encode_image(img):
 # In[6]:
 
 
-with open("Storage/word_to_idx.pkl", 'rb') as w2i:
+with open("Module-3/Storage/word_to_idx.pkl", 'rb') as w2i:
     word_to_idx = pickle.load(w2i)
     
-with open("Storage/idx_to_word.pkl", 'rb') as i2w:
+with open("Module-3/Storage/idx_to_word.pkl", 'rb') as i2w:
     idx_to_word = pickle.load(i2w)
 
 
@@ -153,11 +158,11 @@ def voice(myText):
 # In[13]:
 
 
-def output_caption_stream(image):
-    nm = "frame.jpg"
+def output_caption_stream(image,count):
+    nm = "frame"+str(count)+".jpg"
     cv2.imwrite(nm, image)
     #print(caption_this_image(nm))
-    voice(caption_this_image(nm))
+    voice(caption_this_image(image))
 
 
 # In[ ]:
