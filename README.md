@@ -42,3 +42,5 @@ Step 3: Install dependencies from requirements.txt<br>
 Step 4: Run main.py <br>
 Step 5: Web Cam will start working. We have 3 Modes, Initially Live-environment captioning module will work (Mode 1, press 1 to start this mode), enter 2 to start Facial Recognition mode and enter 3 to start Optical Character Recognition Mode (i.e enter 1, 2 or 3 to switch between modes)<br>
 Step 6: Enter ESC button to end <br>
+
+### Website Link : http://godseye.epizy.com/
