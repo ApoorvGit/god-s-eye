@@ -28,3 +28,10 @@ One is the image we need to describe, a feed to the CNN, and the second is the w
 
 ![Arnav-01](https://user-images.githubusercontent.com/73690811/160275549-182cb6fa-22ff-49da-af27-9cf341b9bb09.jpg)
 #
+# Instructions to run God's Eye ?
+Step 1: Download the repository as zipped file
+Step 2: Extract zip
+Step 3: Install dependencies from requirements.txt
+Step 4: Run main.py 
+Step 5: Web Cam will start working. We have 3 Modes, Initially Live-environment captioning module will work (Mode 1, press 1 to start this mode), enter 2 to start Facial Recognition mode and enter 3 to start Optical Character Recognition Mode (i.e enter 1, 2 or 3 to switch between modes)
+Step 6: Enter ESC button to end 
