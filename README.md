@@ -31,6 +31,7 @@ We have trained our own deep learning model. It works on a multimodal neural net
 ### <b>D)</b> Module 4 (Facial Recognition Module) - 
 It works on face_recognition that uses dlib's deep learning algorithm implementation to recognize the person in the image. It takes OpenCV frame as input and returns name as string. <br>
 
+<hr>
 # Architecture:
 Create a multimodal neural network that uses feature vectors obtained using both RNN and CNN, so consequently, two inputs have to be taken.
 One is the image we need to describe, a feed to the CNN, and the second is the words in the text sequence produced till now as a sequence as the input to the RNN.
