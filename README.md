@@ -23,7 +23,7 @@ AI-based spectacles that will tell blind people about their surroundings in real
 
 # Modules:
 ### <b>A)</b> Module 1 (Voice Module) - 
-It uses GTTS library(Google Text to Speech) to convert string to voice and Playsound Library is used to play the voice retured by GTTS <br> 
+It uses GTTS library(Google Text to Speech) to convert string to voice and Playsound Library is used to play the voice returned by GTTS <br> 
 ### <b>B)</b> Module 2 (Optical Character Recognition) - 
 It uses Tesseract library w, which takes opencv frame as input, recognizes text in it and return text as string. <br>
 ### <b>C)</b> Module 3 (Live-Environment Captioning) - 
@@ -44,3 +44,9 @@ Step 5: Web Cam will start working. We have 3 Modes, Initially Live-environment 
 Step 6: Enter ESC button to end <br>
 
 ### Website Link : http://godseye.epizy.com/
+### Youtube videos: 
+<ul>
+  <li>https://youtu.be/tzNpARxmF44</li>
+  <li>https://youtu.be/hwHHWGiZTyw</li>
+</ul>
+    
