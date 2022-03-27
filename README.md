@@ -22,10 +22,10 @@ AI-based spectacles that will tell blind people about their surroundings in real
 ![Methodology](https://user-images.githubusercontent.com/73690811/160275683-16184713-08c2-4a5c-b63b-46d872144097.png)
 
 # Modules:
-A) Module 1 (Voice Module) - It uses GTTS library(Google Text to Speech) to convert string to voice and Playsound Library is used to play the voice retured by GTTS <br> 
-B) Module 2 (Optical Character Recognition) - It uses Tesseract library w, which takes opencv frame as input, recognizes text in it and return text as string. <br>
-C) Module 3 (Live-Environment Captioning) - We have trained our own model <br>
-D) Module 4 (Facial Recognition Module) - It works on face_recognition that uses dlib's deep learning algorithm implementation to recognise the person in image. It takes opencv frame as input and returns name as string. <br>
+<b>A)</b> Module 1 (Voice Module) - It uses GTTS library(Google Text to Speech) to convert string to voice and Playsound Library is used to play the voice retured by GTTS <br> 
+<b>B)</b> Module 2 (Optical Character Recognition) - It uses Tesseract library w, which takes opencv frame as input, recognizes text in it and return text as string. <br>
+<b>C)</b> Module 3 (Live-Environment Captioning) - We have trained our own model <br>
+<b>D)</b> Module 4 (Facial Recognition Module) - It works on face_recognition that uses dlib's deep learning algorithm implementation to recognise the person in image. It takes opencv frame as input and returns name as string. <br>
 
 # Architecture:
 Create a multimodal neural network that uses feature vectors obtained using both RNN and CNN, so consequently, two inputs have to be taken.
