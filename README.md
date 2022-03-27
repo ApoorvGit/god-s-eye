@@ -30,11 +30,10 @@ It uses Tesseract library w, which takes opencv frame as input, recognizes text 
 We have trained our own deep learning model. It works on a multimodal neural network that uses feature vectors obtained using both RNN and CNN, so consequently, for training, two inputs have to be taken. One is the image we need to describe, a feed to the CNN, and the second is the words in the text sequence produced till now as a sequence as the input to the RNN. This module takes OpenCV frame as input and returns a description of the frame. <br>
 ### <b>D)</b> Module 4 (Facial Recognition Module) - 
 It works on face_recognition that uses dlib's deep learning algorithm implementation to recognize the person in the image. It takes OpenCV frame as input and returns name as string. <br>
-
-<hr>
+<br>
 # Architecture:
 ![Arnav-01](https://user-images.githubusercontent.com/73690811/160275549-182cb6fa-22ff-49da-af27-9cf341b9bb09.jpg)
-#
+
 
 # Instructions to run God's Eye ?
 Step 1: Download the repository as zipped file <br>
