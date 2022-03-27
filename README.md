@@ -33,12 +33,9 @@ It works on face_recognition that uses dlib's deep learning algorithm implementa
 
 <hr>
 # Architecture:
-Create a multimodal neural network that uses feature vectors obtained using both RNN and CNN, so consequently, two inputs have to be taken.
-One is the image we need to describe, a feed to the CNN, and the second is the words in the text sequence produced till now as a sequence as the input to the RNN.
-#
-
 ![Arnav-01](https://user-images.githubusercontent.com/73690811/160275549-182cb6fa-22ff-49da-af27-9cf341b9bb09.jpg)
 #
+
 # Instructions to run God's Eye ?
 Step 1: Download the repository as zipped file <br>
 Step 2: Extract zip<br>
