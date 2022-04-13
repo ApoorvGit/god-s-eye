@@ -5,7 +5,7 @@ pygobject
 numpy
 opencv-python
 face_recognition
-glob
+glob2
 pandas
 numpy
 matplotlib
@@ -13,7 +13,7 @@ scipy
 keras
 json
 pickle
-tenorflow-gpu
+tensorflow-gpu
 gTTs
 os
 time
