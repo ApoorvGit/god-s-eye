@@ -21,3 +21,10 @@ $ pip install face_recognition
 
 3. Installation of Tensorflow-gpu
 $ pip3 install tensorflow
+
+
+
+
+tensorflow for jetson based on jetpack version
+
+https://developer.download.nvidia.com/compute/redist/jp/v50/
