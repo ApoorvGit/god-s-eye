@@ -30,6 +30,8 @@ Output should look like this:
   Description-md5: ad1462289bdbc54909ae109d1d32c0a8
 
 If both these commands give above stated results then move forward
+  sudo apt install libpython3.8-dev
+  pip3 install h5py
   pip install playsound
   pip install opencv-python
   pip install pytesseract
