@@ -19,7 +19,10 @@ def cam():
     global count
     # Load Camera
     cap = cv2.VideoCapture(0)
+    counter=0
     while True:
+        if(counter%5!=0):
+            continue
         ret, frame = cap.read()
         nm="frame"+str(count)+".jpg"
         cv2.imwrite(nm, frame)
