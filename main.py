@@ -14,7 +14,10 @@ mode=1
 def cam():
     # Load Camera
     cap = cv2.VideoCapture(0)
+    counter=0
     while True:
+        if(counter%5!=0):
+            continue
         ret, frame = cap.read()
         if(mode==1) output_caption_stream(frame)
         elif(mode==2) recognise(frame)
