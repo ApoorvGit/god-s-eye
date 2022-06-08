@@ -1,10 +1,3 @@
-## IONathon 1.0 (Prototype Phase)
-
-# Theme: Social service / (focused on underprivileged only)
-
-# Team Name: 
-## arnav0929
-
 # Project Name:
 ## God's Eye
 
