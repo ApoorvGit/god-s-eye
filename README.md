@@ -1,4 +1,8 @@
 # Title: God's Eye (AI based spectacles for Blind people
+<ul>
+  <li><h3>This project was the winner of Ionathon 1.0 on global level</h3></li>
+  <li><h3>SIH finalist 2022</h3></li>
+</ul>
 
 ## 1. Description
 ![photo_2022-03-26_03-15-10](https://user-images.githubusercontent.com/73690811/160207334-b364c377-c9cf-4186-84c6-8de8132e0629.jpg)
